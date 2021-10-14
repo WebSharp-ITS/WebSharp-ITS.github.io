@@ -1,0 +1,41 @@
+.large-header {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    cursor:none;
+}
+.hero-title {
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    color: #fff;
+    font-weight: 400;
+}
+.absolute {
+    position: absolute;
+}
+.center {
+    text-align: center;
+}
+.caps {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+.bg-blue {
+    background-color: #143893;
+}
+.hero-title p {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+footer {
+    background: #143893!important;
+}
